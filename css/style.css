@@ -11,33 +11,30 @@ body{
     background-image: url(../imagenes/viñedo\ 2.jpg)
 }
 header img{
-    height: 120px;
-    width: 100px;
+    height: 150px;
+    width: 200px;
     opacity: 0.4;
-    background-color: rgba(0, 0, 0, 0.684);
+    background-color: rgba(0, 0, 0, 0.809);
 }
 .index{
     height: 300px;
 }
 .barranav{
     display: flex;
-    justify-content: space-around;
     align-items: center;
     font-size: 30px;
     font-family: Montserrat, Tsukimi Rounded, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: darkslategrey;
-    background-color: rgba(0, 0, 0, 0.684);
-}
-.barranav a{
+    background-color: rgba(0, 0, 0, 0.766);
     text-decoration: none;
     color: darkgrey
 }
+
 .tituloindex{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 150px;
-    font-size: 90px;
+    font-size: 75px;
     font-family: 'Satisfy', cursive;
     opacity: 0.9;
 }
@@ -47,10 +44,12 @@ header img{
     align-items: center;
     width: 100vw;
     height: 70px;
-    opacity: 0.5;
     position: relative;
     top: 45px;
-    background-color: rgba(0, 0, 0, 0.946);
+    background-color: rgba(0, 0, 0, 0.766);;
+}
+.footer img{
+    opacity: 0.3;
 }
 .pie{
     position: relative;
@@ -65,10 +64,12 @@ header img{
 }
 .nosotros{
     font-size: 22px;
-    color: black;
-    background-color: rgba(255, 253, 253, 0.299);
+    color: lightgray;
+    background-color: rgba(5, 5, 5, 0.394);
     border-radius: 5%;
     overflow: scroll;
+    font-family: 'Montserrat', sans-serif;
+
 }
 .imagenesnosotros{
     height: 500px;
@@ -89,26 +90,30 @@ iframe{
     color:rgb(96, 191, 191);
     background-color: rgba(0, 0, 0, 0.565);
 }
-.tabla{
-    height: 100px;
+.tablarese{
+    height: 200px;
     font-size: 20px;
     border-collapse: collapse;
-    background-color: antiquewhite;
+    background-color: rgba(250, 235, 215, 0.878);
     opacity: 0.8;
     font-family: 'Montserrat', sans-serif;
 
 }
-tabla, th, td{
-    border: 5px groove rgba(9, 65, 15, 0.8);
+.tablarese, th, td{
+    border: 10px groove rgba(9, 65, 15, 0.881);
     padding: 15px;
+
 }
 .tablamaridaje{
-background-color: black;
-color:darkcyan;
-height: 300px;
-width: 100%;
+background-color: rgba(0, 0, 0, 0.54) !important;
+color:rgb(68, 131, 131) !important;
+height: 100px;
+width: 1300px;
 font-size: 20px;
 }
 .maridaje{
-    height: 100px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
